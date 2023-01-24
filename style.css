@@ -1,0 +1,11 @@
+.fancy{
+    transition: all .3s linear !important;
+    transform: translateY(0px);
+    height: 3em;
+    width: 6em;
+    margin: 5px;
+}
+
+.fancy:hover{
+    transform: translateY(-8px);
+}
